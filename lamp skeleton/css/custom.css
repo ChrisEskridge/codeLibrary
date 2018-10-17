@@ -1,0 +1,99 @@
+/*NOT REVIEWED*/
+
+/* =============================================================
+>>> Author's custom styles
+============================================================= */
+/*==============================================================
+>>> TABLE OF CONTENTS:
+================================================================
+  1. Variables
+  2. Mobile Styles
+	  A. Global
+	  B. Header
+	  C. Main
+	  D. Footer
+  3. Tablet Styles
+  	  A. Global
+	  B. Header
+	  C. Content
+	  D. Footer
+  4. Desktop Styles
+  	  A. Global
+	  B. Header
+	  C. Content
+	  D. Footer
+==============================================================*/
+
+/*--------------------------------------------------------------
+  1. Variables
+--------------------------------------------------------------*/
+:root{
+	--primaryColor:#EBEBEB;
+	--secondaryColor:#D6D6D6;
+	--accentColor:#C1C1C1;
+	--color4:#ACACAC;
+	--color5:#979797;
+	--color6:#828282;
+	--bodyCopyColor:#333;
+	
+	--primaryFont:;
+	--secondaryFont:;
+	--accentFont:;
+}
+/*--------------------------------------------------------------
+  2.A. Global
+--------------------------------------------------------------*/
+body{
+	font-size:10px;
+	line-height: 1.5;
+	/*font-size:83.333%;
+	font-size:0.83333em;*/
+}
+/*--------------------------------------------------------------
+  2.B. Header
+--------------------------------------------------------------*/
+header{
+	background-color:var(--primaryColor);
+	font-size:1.6em;
+}
+nav{
+	background-color:var(--secondaryColor);
+}
+/*--------------------------------------------------------------
+  2.C. Content
+--------------------------------------------------------------*/
+main{
+	background-color:var(--color4);
+	font-size:1.6em;
+}
+.upper{
+	background-color:var(--accentColor);
+}
+.lower{
+	background-color:var(--color5);
+}
+/*--------------------------------------------------------------
+  2.D. Footer
+--------------------------------------------------------------*/
+footer{
+	background-color:var(--color6);
+	font-size:1.6em;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
